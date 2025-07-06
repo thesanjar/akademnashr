@@ -95,7 +95,20 @@ height: 440px;
     line-height: 120%;
     font-style: roboto;
 }
+footer{
+    background-color: #fff;
+}
 .footer-tags{
     color: #000;
     text-decoration: none;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    
+}
+.footer-hr{
+    
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
 }
