@@ -1,0 +1,101 @@
+header{
+    background-color: #fff;
+}
+.site-nav{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.button{
+    width: 155px;
+    height: 39px;
+    background-color: #FF7500;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0;
+}
+.hero{
+    background-color: #252420;
+    color: #fff;
+}
+.hero-content{
+    width: 387px;
+}
+.hero.img{
+    width: 510px;
+    height: 510px;
+    
+}
+.hero-hr{
+    width: 80px;
+    height: 3px;
+    background:#FF7500;
+    
+}
+.hero-h{
+    font-weight: 700px;
+    font-size: 40px;
+    
+}
+.hero-p{
+    font-style: roboto;
+}
+.line{
+    width: 80px;
+    height: 3px;
+    background:#FF7500;
+    
+}
+.section-h{
+    width: 440px; 
+    font-weight: 700px; 
+    font-size: 74px; 
+}
+.section-p{
+    font-weight: 700px;
+    font-size: 25px;
+}
+.section-text{
+    font-weight: 400px;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 150%;
+    font-style: roboto;
+
+}
+.section-book{
+    background: #252420;
+    color: #fff;
+}
+.book{
+width: 440px;
+}
+.book-img{
+width: 440px;
+height: 440px;
+}
+.book-h{
+    font-weight: 700px;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 120%;
+    font-style: roboto;
+}
+
+.book-p{
+    font-weight: 400px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 120%;
+    font-style: roboto;
+}
+.footer-tags{
+    color: #000;
+    text-decoration: none;
+}
