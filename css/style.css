@@ -4,9 +4,27 @@ body{
     letter-spacing: 1.5;
     font-family: "Roboto","Arial", sans-serif;
 }
+*:focus{
+  outline-width: 2px;
+  outline-color: #FF7500;
+  outline-offset:3px ;
+  outline-style: dotted;
+}
 header{
     background-color: #fff;
+
 }
+.site-logo{
+    transition: opacity 0.4s ease;
+}
+.site-logo:hover{
+    opacity: 0.8;
+}
+.site-logo:active{
+    opacity: 0.9;
+}
+
+
 .site-nav{
     font-weight: 500;
     font-size: 15px;
@@ -15,8 +33,20 @@ header{
     color: #000;
     letter-spacing: 1px;
     text-transform: uppercase;
+    transition: color 0.5s ease;
 
 }
+.site-nav:hover{
+    color: #FF7500;
+    
+
+}
+.site-nav:active{
+    color:#ff770080;
+
+}
+
+
 .button{
     width: 155px;
     height: 39px;
@@ -24,7 +54,18 @@ header{
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    padding: 0;
+    padding: 0px;
+    transition: color 0.5s ease;
+     
+
+}
+.button:hover{
+    background-color: rgba(255, 119, 0, 0.8);
+    color: #fff;
+}
+.button:active{
+    background-color: rgba(255, 119, 0, 0.9);
+    color: #fff;
 }
 .hero{
     background-color: #252420;
@@ -37,6 +78,7 @@ header{
     width: 510px;
     height: 510px;
     
+    
 }
 .hero-hr{
     width: 80px;
@@ -45,11 +87,18 @@ header{
     
 }
 .hero-h{
+    width: 340px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
     letter-spacing: 0.5px;
     line-height: 1.2;
+    padding: 30px;
     
+}
+
+.hero-p{
+    width: 388px;
+    padding: 30px;
 }
 
 .line{
@@ -63,6 +112,7 @@ header{
     font-size: 40px;
     letter-spacing: 0.5px;
     line-height: 1.2;
+    padding: 30px;
 }
 .section-p{
     font-family: "Roboto Condensed", sans-serif;
@@ -83,12 +133,11 @@ header{
     background: #252420;
     color: #fff;
 }
-.book{
-width: 440px;
-}
+
 .book-img{
 width: 440px;
 height: 440px;
+
 }
 .book-h{
     font-family: "Roboto Condensed", sans-serif;
@@ -96,15 +145,18 @@ height: 440px;
     letter-spacing: 0.5px;
     line-height: 1.2;
     font-size: 40px;
+    padding: 30px;
 
  
 }
 
 .book-p{
-    font-weight: 400px;
+    width: 440px;
+    height: 48px;
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 120%;
+    padding: 30px;
    
 }
 footer{
@@ -113,6 +165,22 @@ footer{
 .footer-tags{
     color: #000;
     text-decoration: none;
+    transition: color 0.5s ease;
+}
+.footer-tags:hover{
+    color: #FF7500;
+}
+.footer-tags:active{
+    color: #ff770080;
+}
+.footer-logo{
+    color: #252420;
+}
+.footer-logo:hover{
+    color: #FF7500;
+}
+.footer-logo:active{
+    opacity: 0.6;
 }
 .icon{
     width: 100px;
@@ -127,3 +195,4 @@ footer{
 ul{
     list-style-type:none;
 }
+
