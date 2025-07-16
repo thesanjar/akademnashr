@@ -11,7 +11,12 @@ body{
   outline-style: dotted;
 }
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid #FF7500;
 
 }
 .site-logo{
@@ -48,13 +53,17 @@ header{
 
 
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 155px;
     height: 39px;
     background-color: #FF7500;
     color: #fff;
+    padding: 12 24;
     text-decoration: none;
-    border-radius: 5px;
-    padding: 0px;
+    border-radius: 4px;
+    font-weight: bold;
     transition: color 0.5s ease;
      
 
@@ -83,6 +92,7 @@ header{
 .hero-hr{
     width: 80px;
     height: 3px;
+    border: none;
     background:#FF7500;
     
 }
