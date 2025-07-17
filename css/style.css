@@ -12,7 +12,8 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
     background-color: #fff;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -29,8 +30,16 @@ header{
     opacity: 0.9;
 }
 
-
+.site-ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin-right: 32px;
+    
+}
 .site-nav{
+    margin-right: 32px;
     font-weight: 500;
     font-size: 15px;
     line-height: 15px;
@@ -41,6 +50,7 @@ header{
     transition: color 0.5s ease;
 
 }
+
 .site-nav:hover{
     color: #FF7500;
     
@@ -77,11 +87,14 @@ header{
     color: #fff;
 }
 .hero{
+    display: flex;
+    justify-content: space-between;
     background-color: #252420;
     color: #fff;
 }
 .hero-content{
     width: 387px;
+    
 }
 .hero.img{
     width: 510px;
@@ -92,11 +105,15 @@ header{
 .hero-hr{
     width: 80px;
     height: 3px;
+    margin: 0;
+    margin-bottom: 40px;
     border: none;
     background:#FF7500;
     
 }
 .hero-h{
+    margin-top: 0;
+    margin-bottom: 24px;
     width: 340px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 40px;
@@ -107,6 +124,8 @@ header{
 }
 
 .hero-p{
+    margin-top: 0;
+    margin-bottom: 32px;
     width: 388px;
     padding: 30px;
 }
@@ -131,6 +150,12 @@ header{
     line-height: 1.2;
     font-size: 25px;
 }
+.section-ul{
+
+    display: flex;
+    justify-content: space-between;
+ 
+}
 .section-text{
     font-weight: 400px;
     font-size: 16px;
@@ -140,6 +165,8 @@ header{
 
 }
 .section-book{
+    display: flex;
+    justify-content: space-between;
     background: #252420;
     color: #fff;
 }
@@ -203,6 +230,29 @@ footer{
     background-color: rgba(37, 36, 32, 0.5);
 }
 ul{
+
     list-style-type:none;
 }
+.footer-div{
+    display: flex;
+    justify-content: space-between;
 
+}
+.main-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-ul{
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.ul-ul svg{
+    display: block;
+}
+.main-ul a{
+    display: block;
+}
+.site-logo img{
+    display: block;
+}
